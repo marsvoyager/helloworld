@@ -7,7 +7,7 @@ git remote add origin git@github.com:YOUR_USERNAME/myDirName.git
 
 curl -u USERNAME:PASSWORD https://api.github.com/user/repos -d '{"name":"myDirName"}' #this will create the repo in github.
 
-# if you haven't generated and SSH key for github access then follow these steps, otherwise you're good to push your shit to github.
+# if you haven't generated and SSH key for github access then follow these steps, otherwise you're good to push your s**t to github.
 eval $(ssh-agent -s)
 ssh-keygen -t rsa -b 4096 -C "email@yourdomain.com" #this should be your github email address
 ## you'll be prompted to a couple of times. Press enter for the first prompt. choose a passphrase for the second prompt, or press enter twice for no passphrase
